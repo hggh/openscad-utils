@@ -7,4 +7,4 @@ OpenSCAD libraries
 ```bash
 
 mkdir -p ~/.local/share/OpenSCAD/libraries/
-git clone git@github.com:hggh/openscad-utils.git hggh
+git clone git@github.com:hggh/openscad-utils.git ~/.local/share/OpenSCAD/libraries/hggh
