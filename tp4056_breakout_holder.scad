@@ -15,7 +15,7 @@ module tp4056_breakout_holder() {
             cube([USB_CONN_X +1 , USB_CONN_Y, USB_CONN_Z + 1 + 1 ]);
         }
         translate([0, 1.2, -1]) {
-            cube([TP4056_PCB_X, TP4056_PCB_Y, 2]);
+            cube([TP4056_PCB_X, TP4056_PCB_Y, 2.2]);
         }
         translate([8, 1.2, 0.8]) {
             cube([TP4056_PCB_X - 8, TP4056_PCB_Y, 1.8]);
