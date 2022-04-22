@@ -41,6 +41,7 @@ module pcb() {
     }
 }
 
+module usb_c_breakout_case_holder() {
 
 difference() {
     union() {
@@ -82,4 +83,5 @@ translate([60, 0, 0]) {
             rotate([270, 0, 0]) cylinder(d=3.2, h=200, $fn=190);
         }
     }
+}
 }
